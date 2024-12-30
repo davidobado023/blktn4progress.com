@@ -6,10 +6,21 @@
     margin-bottom: 5px;
 }
 
-a.contact {
+.contact {
+    padding-left: 2rem;
+    padding-right: 2rem; 
+}
+
+.navbar {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+#contact {
     text-decoration: none;
     color: black;
     font-size: 13px;
+    padding-left: 0px;
 }
 
 .bg-img {
@@ -25,4 +36,4 @@ a.contact {
     #contact {
       display: none !important;
     }
-  }
+}
