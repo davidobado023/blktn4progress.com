@@ -6,6 +6,11 @@
     margin-bottom: 5px;
 }
 
+#brand {
+    width: 10rem;
+    height: 3rem;
+}
+
 .contact {
     padding-left: 2rem;
     padding-right: 2rem; 
@@ -32,8 +37,16 @@
     z-index: -1;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 864px) {
     #contact {
       display: none !important;
+    }
+    .contact {
+        padding-left: 0rem;
+        padding-right: 0rem; 
+    }
+    .navbar {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
